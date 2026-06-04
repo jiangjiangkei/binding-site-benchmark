@@ -1,0 +1,10 @@
+name: binding-protcross
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - protcross==0.1.2
+      - esm==3.2.1.post1
+      - httpx==0.28.1
